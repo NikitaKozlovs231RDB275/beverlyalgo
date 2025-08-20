@@ -316,7 +316,7 @@
 }
  
 .home-text44 {
-  color: #ffffff;
+  color: rgb(255, 255, 255);
   display: inline-block;
   font-size: 30px;
   font-style: normal;
@@ -498,10 +498,6 @@
   font-size: 3rem;
   font-style: normal;
   font-weight: 700;
-}
- 
-.home-text15 {
-  font-size: 3rem;
 }
  
 .home-text16 {
@@ -999,7 +995,7 @@
 }
  
 .home-text44 {
-  color: #ffffff;
+  color: rgb(255, 255, 255);
   display: inline-block;
   font-size: 30px;
   font-style: normal;
@@ -2090,7 +2086,7 @@
   }
   .home-button1 {
     width: 50%;
-    height: 10%;
+    height: 8%;
     display: flex;
     text-align: center;
     align-items: center;
@@ -2100,30 +2096,36 @@
     padding-bottom: 0px;
     justify-content: center;
   }
+  .home-text10 {
+    font-size: 0.7rem;
+    font-style: normal;
+    font-family: Inter;
+    font-weight: 700;
+  }
   .home-text14 {
     color: #ffffff;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-style: normal;
     font-family: Inter;
     font-weight: 700;
   }
   .home-text15 {
     color: #ffffff;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-style: normal;
     font-family: Inter;
     font-weight: 700;
   }
   .home-text16 {
     color: #00dbe8;
-    font-size: 2.4rem;
+    font-size: 2.2rem;
     font-style: normal;
     font-family: Inter;
     font-weight: 800;
   }
   .home-text17 {
     color: #00dbe8;
-    font-size: 2.4rem;
+    font-size: 2.2rem;
     font-style: normal;
     font-family: Inter;
     font-weight: 800;
