@@ -267,6 +267,9 @@
   font-style: normal;
   font-family: "Inter";
   font-weight: 400;
+  background-color: #0000F5;
+  padding: 0.3em 0.6em;
+  border-radius: 4px;  
 }
  
 .home-fragment9 {
@@ -331,6 +334,9 @@
     font-style: inherit;
     font-family: Inter;
     font-weight: 500;
+    background-color: #0000F5;
+    padding: 0.3em 0.6em;
+    border-radius: 4px;  
   }
 }
  
@@ -373,6 +379,9 @@
     font-style: normal;
     font-family: Inter;
     font-weight: 400;
+    background-color: #0000F5;
+    padding: 0.3em 0.6em;
+    border-radius: 4px;  
   }
   .home-text53 {
     color: rgb(255, 255, 255);
@@ -475,13 +484,14 @@
 .home-button1 {
   width: 25rem;
   height: 3rem;
-  padding: 0px;
+  padding: 0;
   align-self: center;
-  border-color: #8e8e8e;
-  border-width: 1px;
+  border: 1px solid #8e8e8e;
   border-radius: var(--dl-layout-radius-radius4);
-  background-color: transparent;
-  background-image: linear-gradient(90deg, rgb(12, 0, 72) 0.00%,rgb(46, 0, 104) 97.00%);
+  background: linear-gradient(90deg, rgb(12, 0, 72) 0%, rgb(46, 0, 104) 97%);
+  cursor: default;
+  pointer-events: none;
+  user-select: none;
 }
  
 .home-text10 {
@@ -501,11 +511,16 @@
 }
  
 .home-text16 {
-  color: #00dbe8;
   font-size: 5.3rem;
   font-style: normal;
   font-weight: 800;
+  background: linear-gradient(to top, #008B48 0%, #44C5E2 70%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: #00dbe8;
 }
+
  
 .home-text17 {
   color: #00dbe8;
@@ -1014,6 +1029,9 @@
   font-style: normal;
   font-family: "Inter";
   font-weight: 400;
+  background-color: #0000F5;
+  padding: 0.3em 0.6em;
+  border-radius: 4px;  
 }
  
 .home-fragment4 {
@@ -1657,6 +1675,9 @@
     font-style: inherit;
     font-family: Inter;
     font-weight: 500;
+    background-color: #0000F5;
+    padding: 0.3em 0.6em;
+    border-radius: 4px;  
   }
   .home-faq {
     padding-bottom: var(--dl-layout-space-fiveunits);
@@ -2280,6 +2301,9 @@
     font-style: normal;
     font-family: Inter;
     font-weight: 400;
+    background-color: #0000F5;
+    padding: 0.3em 0.6em;
+    border-radius: 4px;  
   }
   .home-text47 {
     color: #72e24b;
