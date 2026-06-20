@@ -5,9 +5,9 @@ import { siteConfig } from "@/config/site";
 import { cn } from "@/lib/utils";
 
 import { Button, buttonVariants } from "../../ui/button";
-import { StardustButton } from "../../ui/stardust-button";
 import Glow from "../../ui/glow";
 import { Section } from "../../ui/section";
+import { StardustButton } from "../../ui/stardust-button";
 
 interface CTAButtonProps {
   href: string;

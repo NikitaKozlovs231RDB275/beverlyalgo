@@ -1,6 +1,7 @@
 'use client'
 
-import React, { useEffect, useRef, ReactNode } from 'react';
+import React, { ReactNode,useEffect, useRef } from 'react';
+
 import { cn } from '@/lib/utils';
 
 interface GlowCardProps {

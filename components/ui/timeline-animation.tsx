@@ -1,8 +1,9 @@
 "use client"
 
-import { cn } from "@/lib/utils"
 import { motion, useInView, type Variants } from "motion/react"
 import React, { useRef } from "react"
+
+import { cn } from "@/lib/utils"
 
 // Explicit lookup avoids `motion[tag]` indexing issues
 const motionElements = {

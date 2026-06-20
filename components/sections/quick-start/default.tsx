@@ -1,7 +1,8 @@
 'use client'
 
-import Image from 'next/image';
 import { motion } from 'framer-motion';
+import Image from 'next/image';
+
 import { Section } from '@/components/ui/section';
 import { GlowCard } from '@/components/ui/spotlight-card';
 

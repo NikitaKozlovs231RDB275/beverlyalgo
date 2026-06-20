@@ -1,17 +1,17 @@
 "use client"
 
-import React, { useEffect, useState } from "react"
-import Link from "next/link"
-import Image from "next/image"
 import { AnimatePresence, motion, type Variants } from "framer-motion"
 import { ArrowRight, Menu, X } from "lucide-react"
-import { Button } from "@/components/ui/button"
-import { StardustButton } from "@/components/ui/stardust-button"
+import Image from "next/image"
+import Link from "next/link"
+import React, { useEffect, useState } from "react"
+
 import { AnimatedGroup } from "@/components/ui/animated-group"
 import { BackgroundGradientAnimation } from "@/components/ui/background-gradient-animation"
-import { cn } from "@/lib/utils"
-import { siteConfig } from "@/config/site"
 import { Banner } from "@/components/ui/banner"
+import { Button } from "@/components/ui/button"
+import { StardustButton } from "@/components/ui/stardust-button"
+import { cn } from "@/lib/utils"
 
 const menuItems = [
   { name: "Features", href: "#features" },

@@ -1,8 +1,8 @@
 'use client';
-import React from 'react';
-import type { ComponentProps, ReactNode } from 'react';
 import { motion, useReducedMotion } from 'motion/react';
 import Image from 'next/image';
+import type { ComponentProps, ReactNode } from 'react';
+import React from 'react';
 
 interface FooterLink {
     title: string;

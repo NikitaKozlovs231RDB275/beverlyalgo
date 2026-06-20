@@ -1,9 +1,10 @@
 import Image from "next/image";
 import { ReactNode } from "react";
 
-import { Section } from "../../ui/section";
-import { Badge } from "../../ui/badge";
 import { BackgroundGradientAnimation } from "@/components/ui/background-gradient-animation";
+
+import { Badge } from "../../ui/badge";
+import { Section } from "../../ui/section";
 
 interface LogosProps {
   title?: string;

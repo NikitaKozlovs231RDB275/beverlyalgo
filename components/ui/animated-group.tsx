@@ -1,8 +1,9 @@
 "use client"
 
-import { cn } from "@/lib/utils"
 import { motion, type Variants } from "framer-motion"
 import React from "react"
+
+import { cn } from "@/lib/utils"
 
 type PresetType = "fade" | "slide" | "scale" | "blur" | "blur-slide"
 

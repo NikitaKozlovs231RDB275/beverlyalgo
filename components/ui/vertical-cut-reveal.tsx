@@ -1,6 +1,5 @@
 "use client"
 
-import { cn } from "@/lib/utils"
 import {
   motion,
   type Transition,
@@ -14,6 +13,8 @@ import {
   useRef,
   useState,
 } from "react"
+
+import { cn } from "@/lib/utils"
 
 interface TextProps {
   children: React.ReactNode
@@ -71,7 +72,7 @@ const VerticalCutReveal = forwardRef<VerticalCutRevealRef, TextProps>(
 
     const splitIntoCharacters = (str: string): string[] => {
       if (typeof Intl !== "undefined" && "Segmenter" in Intl) {
-        const segmenter = new (Intl as any).Segmenter("en", {
+        const segmenter = new Intl.Segmenter("en", {
           granularity: "grapheme",
         })
         return Array.from(

@@ -1,5 +1,6 @@
-﻿import { Card, CardContent } from '@/components/ui/card';
-import { Shield, Users } from 'lucide-react';
+﻿import { Shield, Users } from 'lucide-react';
+
+import { Card, CardContent } from '@/components/ui/card';
 
 export function FeaturesGrid() {
     return (

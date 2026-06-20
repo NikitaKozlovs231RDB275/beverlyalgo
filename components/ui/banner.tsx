@@ -1,8 +1,9 @@
 "use client";
-import { type HTMLAttributes, useEffect, useState } from "react";
 import { X } from "lucide-react";
-import { cn } from "@/lib/utils";
+import { type HTMLAttributes, useEffect, useState } from "react";
+
 import { buttonVariants } from "@/components/ui/button";
+import { cn } from "@/lib/utils";
 
 type BannerVariant = "rainbow" | "normal";
 

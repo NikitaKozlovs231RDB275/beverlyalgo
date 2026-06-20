@@ -1,14 +1,14 @@
 "use client";
 
+import NumberFlow from "@number-flow/react";
+import { motion } from "motion/react";
+import { useRef, useState } from "react";
+
 import { Card, CardContent, CardHeader } from "@/components/ui/card";
 import { Sparkles as SparklesComp } from "@/components/ui/sparkles";
 import { TimelineContent } from "@/components/ui/timeline-animation";
 import { VerticalCutReveal } from "@/components/ui/vertical-cut-reveal";
-import { siteConfig } from "@/config/site";
 import { cn } from "@/lib/utils";
-import NumberFlow from "@number-flow/react";
-import { motion } from "motion/react";
-import { useRef, useState } from "react";
 
 const plans = [
   {

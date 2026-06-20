@@ -7,7 +7,6 @@ import { cn } from "@/lib/utils";
 
 import LaunchUI from "../../logos/launch-ui";
 import { Button, buttonVariants } from "../../ui/button";
-import { StardustButton } from "../../ui/stardust-button";
 import {
   Navbar as NavbarComponent,
   NavbarLeft,
@@ -15,6 +14,7 @@ import {
 } from "../../ui/navbar";
 import Navigation from "../../ui/navigation";
 import { Sheet, SheetContent, SheetTrigger } from "../../ui/sheet";
+import { StardustButton } from "../../ui/stardust-button";
 
 interface NavbarLink {
   text: string;

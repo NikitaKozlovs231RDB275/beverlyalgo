@@ -1,7 +1,6 @@
-import Link from "next/link";
 import { ReactNode } from "react";
 
-import { siteConfig } from "@/config/site";
+import { BackgroundGradientAnimation } from "@/components/ui/background-gradient-animation";
 
 import {
   Accordion,
@@ -10,7 +9,6 @@ import {
   AccordionTrigger,
 } from "../../ui/accordion";
 import { Section } from "../../ui/section";
-import { BackgroundGradientAnimation } from "@/components/ui/background-gradient-animation";
 
 interface FAQItemProps {
   question: string;

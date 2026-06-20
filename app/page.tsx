@@ -1,11 +1,11 @@
-import { HeroSection } from "../components/ui/hero-section-1";
-import { FeaturesGrid } from "../components/ui/features-grid";
-import Logos from "../components/sections/logos/default";
-import QuickStartGuide from "../components/sections/quick-start/default";
-import Pricing from "../components/sections/pricing/default";
 import FAQ from "../components/sections/faq/default";
+import Logos from "../components/sections/logos/default";
+import Pricing from "../components/sections/pricing/default";
+import QuickStartGuide from "../components/sections/quick-start/default";
 import { SocialConnect } from "../components/ui/connect-with-us";
+import { FeaturesGrid } from "../components/ui/features-grid";
 import { Footer } from "../components/ui/footer-section";
+import { HeroSection } from "../components/ui/hero-section-1";
 
 export default function Home() {
   return (

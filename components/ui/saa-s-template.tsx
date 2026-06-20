@@ -1,8 +1,10 @@
 "use client";
 
-import { ArrowRight, Menu, X } from "lucide-react";
+import Link from "next/link";
 import Image from "next/image";
 import React from "react";
+
+import { ArrowRight, Menu, X } from "lucide-react";
 
 import { Button } from "@/components/ui/button";
 import { StardustButton } from "@/components/ui/stardust-button";
@@ -21,19 +23,19 @@ export const SaaSNavigation = React.memo(() => {
     <header className="fixed top-0 w-full z-50 border-b border-white/[0.06] bg-black/80 backdrop-blur-md">
       <nav className="max-w-7xl mx-auto px-6 py-4">
         <div className="flex items-center justify-between relative">
-          <a href="/" className="text-xl font-semibold text-white tracking-tight">
+          <Link href="/" className="text-xl font-semibold text-white tracking-tight">
             BeverlyAlgo
-          </a>
+          </Link>
 
           <div className="hidden md:flex items-center justify-center gap-8 absolute left-1/2 -translate-x-1/2">
             {NAV_LINKS.map((link) => (
-              <a
+              <Link
                 key={link.href}
                 href={link.href}
                 className="text-sm text-white/50 hover:text-white transition-colors duration-200"
               >
                 {link.text}
-              </a>
+              </Link>
             ))}
           </div>
 
@@ -44,7 +46,7 @@ export const SaaSNavigation = React.memo(() => {
               className="text-white/60 hover:text-white hover:bg-white/[0.06] cursor-pointer"
               asChild
             >
-              <a href="#">Sign in</a>
+              <Link href="#">Sign in</Link>
             </Button>
             <StardustButton href={siteConfig.getStartedUrl} size="sm">
               Get Access
@@ -67,14 +69,14 @@ export const SaaSNavigation = React.memo(() => {
         <div className="md:hidden bg-black/95 backdrop-blur-md border-t border-white/[0.06] animate-slide-down">
           <div className="px-6 py-4 flex flex-col gap-4">
             {NAV_LINKS.map((link) => (
-              <a
+              <Link
                 key={link.href}
                 href={link.href}
                 className="text-sm text-white/50 hover:text-white transition-colors duration-200 py-2"
                 onClick={() => setMobileMenuOpen(false)}
               >
                 {link.text}
-              </a>
+              </Link>
             ))}
             <div className="flex flex-col gap-2 pt-4 border-t border-white/[0.06]">
               <Button
@@ -83,7 +85,7 @@ export const SaaSNavigation = React.memo(() => {
                 className="text-white/60 hover:text-white hover:bg-white/[0.06] cursor-pointer"
                 asChild
               >
-                <a href="#">Sign in</a>
+                <Link href="#">Sign in</Link>
               </Button>
               <StardustButton href={siteConfig.getStartedUrl} size="sm">
                 Get Access
@@ -105,14 +107,14 @@ export const SaaSHero = React.memo(() => {
         <span className="text-xs text-white/40 whitespace-nowrap">
           New version of BeverlyAlgo is out!
         </span>
-        <a
+        <Link
           href={siteConfig.getStartedUrl}
           className="flex items-center gap-1 text-xs text-white/40 hover:text-white/80 transition-colors duration-200 active:scale-95 whitespace-nowrap"
           aria-label="Get started with the new version of BeverlyAlgo"
         >
           Get started
           <ArrowRight size={12} />
-        </a>
+        </Link>
       </aside>
 
       {/* Headline */}
@@ -134,7 +136,7 @@ export const SaaSHero = React.memo(() => {
           className="rounded-lg bg-gradient-to-b from-white via-white/95 to-white/70 text-black font-semibold hover:scale-[1.02] active:scale-[0.98] transition-transform duration-150 cursor-pointer shadow-[0_0_20px_rgba(255,255,255,0.15)]"
           asChild
         >
-          <a href={siteConfig.getStartedUrl}>Get started</a>
+          <Link href={siteConfig.getStartedUrl}>Get started</Link>
         </Button>
       </div>
 
