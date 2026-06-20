@@ -1,0 +1,41 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(claude --version)",
+      "Bash(where claude *)",
+      "Bash(npm --version)",
+      "PowerShell($cmd = Get-Command claude -ErrorAction SilentlyContinue; if \\($cmd\\) { \"PATH: $\\($cmd.Source\\)\"; try { & claude --version } catch { \"version call failed: $_\" } } else { \"claude not on PATH\" }; \"---npm global---\"; try { npm ls -g --depth=0 2>$null | Select-String -Pattern \"claude\" } catch {}; \"---env---\"; \"ENABLE_PLUGINS=$env:ENABLE_PLUGINS\"; \"CLAUDE_CONFIG_DIR=$env:CLAUDE_CONFIG_DIR\")",
+      "Bash(npx skills *)",
+      "Bash(python3 *)",
+      "PowerShell(python \"C:\\\\Users\\\\nex7\\\\.claude\\\\plugins\\\\cache\\\\ui-ux-pro-max-skill\\\\ui-ux-pro-max\\\\2.5.0\\\\.claude\\\\skills\\\\ui-ux-pro-max\\\\scripts\\\\search.py\" \"fintech trading algorithm SaaS dark premium\" --design-system -p \"BeverlyAlgo\" -f markdown 2>&1)",
+      "PowerShell(Stop-Process *)",
+      "Bash(timeout 15 npx next dev)",
+      "Bash(Get-ChildItem -Path \"D:\\\\BeverlyAlgo\\\\Website\\\\BeverlyAlgo 06.06.26\" -Force)",
+      "Bash(Select-Object Name, Mode)",
+      "Bash(npx tsc *)",
+      "Bash(node -e \"require.resolve\\('motion/react'\\)\")",
+      "Bash(dir)",
+      "Bash(npm run *)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:3000)",
+      "Bash(node -e \"const p=require\\('playwright'\\);console.log\\('ok'\\)\")",
+      "Bash(npx playwright *)",
+      "Bash(node *)",
+      "Bash(where playwright *)",
+      "Bash(npx --yes playwright --version)",
+      "Bash(npm install *)",
+      "Bash(Remove-Item verify_qsg.cjs)",
+      "Skill(run)",
+      "Bash(npx next *)",
+      "Read(//c/tmp/**)",
+      "Bash(ls -la /tmp/hero_*.png)",
+      "Bash(findstr -i logo)",
+      "Bash(Get-ChildItem \"D:\\\\BeverlyAlgo\\\\Website\\\\BeverlyAlgo 06.06.26\\\\app\" -Recurse -Filter \"*.tsx\")",
+      "Bash(Select-Object FullName)",
+      "Bash(Remove-Item \"D:\\\\BeverlyAlgo\\\\Website\\\\BeverlyAlgo 06.06.26\\\\components\\\\ui\\\\grid-pattern.tsx\" -Force)",
+      "Bash(Remove-Item \"D:\\\\BeverlyAlgo\\\\Website\\\\BeverlyAlgo 06.06.26\\\\components\\\\ui\\\\vignette-grid-background.tsx\" -Force)",
+      "Bash(Write-Output \"Deleted\")",
+      "Bash(python scripts/search.py \"fintech AI trading SaaS dark premium\" --design-system -f markdown)",
+      "Bash(python \"C:\\\\Users\\\\nex7\\\\.claude\\\\plugins\\\\cache\\\\ui-ux-pro-max-skill\\\\ui-ux-pro-max\\\\2.5.0\\\\.claude\\\\skills\\\\ui-ux-pro-max\\\\scripts\\\\search.py\" \"fintech AI trading SaaS dark premium bold hero headline glow\" --domain style)"
+    ]
+  }
+}
